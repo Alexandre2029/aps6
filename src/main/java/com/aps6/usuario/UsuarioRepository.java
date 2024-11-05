@@ -9,5 +9,4 @@ public interface UsuarioRepository extends JpaRepository<Usuario,Long> {
     List<Usuario>findByNome(String a);
 
 
-    // Usuario findByName(String name);
 }
